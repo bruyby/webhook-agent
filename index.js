@@ -12,7 +12,7 @@ app.post('/',express.json(),(req, res)=>{
         response : res
     });
 
-    function information (){
+    function information (agent){
         agent.add('Testando ficheiro');
     }
 
